@@ -1,11 +1,19 @@
 body, html{
     height: 100%;
+
 }
+body{
+    padding: 10px;
+}
+    
+
 #container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     height: 100%;
+    padding: 5px;
+    margin: 5px;
 }
 #sectionA {
     grid-column: 1/2;
@@ -42,7 +50,7 @@ body, html{
 #sectionF {
     grid-column: 1/2;
     grid-row: 3;
-    background-color: royalbluegit ;
+    background-color: royalblue;
             
 }
 .firstButton{

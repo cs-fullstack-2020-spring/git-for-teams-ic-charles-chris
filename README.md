@@ -7,7 +7,7 @@
 * Add three buttons to box C
     * The first button should change the background color of box A
     * The second button should change the background color of box B
-    * The third button should ask the user to enter a word and change the text in box D to whatever they enter
+ git   * The third button should ask the user to enter a word and change the text in box D to whatever they enter
 
 <img src="gridExample.png" alt="grid example">
 
