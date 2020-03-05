@@ -17,9 +17,10 @@ let thirdButton=document.querySelector('.thirdButton')
 firstButton.addEventListener('click', onClick)
 function onClick(event){
     section_C.innerHTML=`${section_C.innerHTML}`
-    Headers.classlist.add()
+    Headers.classlist.add('red') 
 
 }
+
 function addingText(event){
     let boxD=prompt("Enter text for box D")
 }
