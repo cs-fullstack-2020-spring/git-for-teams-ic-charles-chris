@@ -1,14 +1,59 @@
+body, html{
+    height: 100%;
+}
 #container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
+    height: 100%;
 }
-#sectionA{
-grid-column: 1/2;
-grid-row: 1;
-}
-#sectionA{
+#sectionA {
     grid-column: 1/2;
     grid-row: 1;
-    
+    background-color: aqua;
+
+}
+
+#sectionB{
+    grid-column: 2/3;
+    grid-row: 1;
+    background-color: darkorange;
+
+}
+
+#sectionC {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: greenyellow;
+ }
+ #sectionD {
+    grid-column: 3/4;
+    grid-row: 1;
+    background-color: indigo;
+        
+}
+
+#sectionE {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: pink;
+}
+
+#sectionF {
+    grid-column: 1/2;
+    grid-row: 3;
+    background-color: royalbluegit ;
+            
+}
+.firstButton{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+.secondButton{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+.thirdButton{
+    grid-column: 2/4;
+    grid-row: 2/4;
 }
