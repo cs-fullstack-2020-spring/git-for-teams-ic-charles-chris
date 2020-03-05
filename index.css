@@ -1,0 +1,14 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#sectionA{
+grid-column: 1/2;
+grid-row: 1;
+}
+#sectionA{
+    grid-column: 1/2;
+    grid-row: 1;
+    
+}
